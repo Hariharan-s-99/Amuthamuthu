@@ -1,0 +1,13 @@
+{
+  "version": "1.0",
+  "devtools": {
+    "enabled": true,
+    "features": {
+      "sourceMaps": true,
+      "breakpoints": true,
+      "console": true,
+      "network": true,
+      "performance": true
+    }
+  }
+} 
