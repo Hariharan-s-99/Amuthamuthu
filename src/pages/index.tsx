@@ -1,20 +1,17 @@
 // pages/index.tsx
 import React, { useState, useEffect } from 'react';
 import Head from 'next/head';
-import Image from 'next/image';
 import Link from 'next/link';
 import { motion } from 'framer-motion';
 
 const HomePage: React.FC = () => {
   const [isScrolled, setIsScrolled] = useState<boolean>(false);
-  const [isLoaded, setIsLoaded] = useState<boolean>(false);
 
   useEffect(() => {
     const handleScroll = () => {
       setIsScrolled(window.scrollY > 50);
     };
     window.addEventListener('scroll', handleScroll);
-    setIsLoaded(true);
     return () => window.removeEventListener('scroll', handleScroll);
   }, []);
 
@@ -346,7 +343,7 @@ const HomePage: React.FC = () => {
                     Notify Me
                   </button>
                 </div>
-                <p className="text-sm text-white/60 mt-4">We'll never spam you. Unsubscribe at any time.</p>
+                <p className="text-sm text-white/60 mt-4">We&apos;ll never spam you. Unsubscribe at any time.</p>
               </div>
             </motion.div>
           </div>

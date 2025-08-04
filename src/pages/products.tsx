@@ -196,7 +196,7 @@ const Products: React.FC = () => {
                   Notify Me
                 </button>
               </div>
-              <p className="text-sm text-white/60 mt-4">We'll never spam you. Unsubscribe at any time.</p>
+              <p className="text-sm text-white/60 mt-4">We&apos;ll never spam you. Unsubscribe at any time.</p>
             </div>
           </motion.div>
         </div>
