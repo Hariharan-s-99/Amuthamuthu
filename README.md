@@ -1,36 +1,103 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# AMUTHAMUTHU - Premium Healthy Snacks Landing Page
+
+A modern, responsive landing page for a premium healthy snacks startup built with Next.js, TypeScript, and Tailwind CSS.
+
+## Features
+
+- 🎨 Modern, responsive design with beautiful animations
+- ⚡ Fast performance with Next.js optimization
+- 🎯 SEO optimized with meta tags and structured data
+- 📱 Mobile-first responsive design
+- 🎭 Smooth animations with Framer Motion
+- 🎨 Custom Tailwind CSS configuration
+- 🔧 TypeScript for type safety
+
+## Tech Stack
+
+- **Framework**: Next.js 14
+- **Language**: TypeScript
+- **Styling**: Tailwind CSS
+- **Animations**: Framer Motion
+- **Fonts**: Inter & Poppins (Google Fonts)
 
 ## Getting Started
 
-First, run the development server:
+### Prerequisites
 
+- Node.js 18+ 
+- npm or yarn
+
+### Installation
+
+1. Clone the repository:
 ```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
+git clone <repository-url>
+cd anudhamuthu
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Install dependencies:
+```bash
+npm install
+```
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+3. Run the development server:
+```bash
+npm run dev
+```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+4. Open [http://localhost:3000](http://localhost:3000) in your browser.
 
-## Learn More
+## Available Scripts
 
-To learn more about Next.js, take a look at the following resources:
+- `npm run dev` - Start development server
+- `npm run build` - Build for production
+- `npm run start` - Start production server
+- `npm run lint` - Run ESLint
+- `npm run type-check` - Run TypeScript type checking
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Project Structure
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+```
+src/
+├── pages/          # Next.js pages
+│   ├── _app.tsx   # App wrapper
+│   ├── index.tsx  # Homepage
+│   ├── about.tsx  # About page
+│   ├── contact.tsx # Contact page
+│   └── ...        # Other pages
+└── styles/
+    └── global.css # Global styles
+```
 
-## Deploy on Vercel
+## Features Implemented
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+- ✅ Responsive navigation with scroll effects
+- ✅ Hero section with call-to-action buttons
+- ✅ Product showcase with filtering
+- ✅ Features section highlighting benefits
+- ✅ Email signup for launch notifications
+- ✅ Footer with links and social media
+- ✅ SEO optimization with meta tags
+- ✅ TypeScript type safety
+- ✅ ESLint configuration
+- ✅ Tailwind CSS styling
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## Deployment
+
+The project is ready for deployment on platforms like Vercel, Netlify, or any static hosting service.
+
+```bash
+npm run build
+```
+
+## Contributing
+
+1. Fork the repository
+2. Create a feature branch
+3. Make your changes
+4. Run tests and linting
+5. Submit a pull request
+
+## License
+
+This project is licensed under the MIT License.
